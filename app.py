@@ -67,7 +67,7 @@ st.set_page_config(page_title="RAG App", layout="wide")
 
 st.title("🧠 Agentic RAG with MongoDB + HuggingFace")
 
-query = st.text_input("Ask a question:")
+query = st.text_input("Ask streamlit_a question:")
 
 if st.button("Submit") and query:
 
